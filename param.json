@@ -1,0 +1,13 @@
+{
+    "keyVaultName" : "kvtest",
+    "location" : "northeurope",
+    "enabledForDeployment" : false,
+    "enabledForDiskEncryption" : false,
+    "enabledForTemplateDeployment" : false,
+    "skuName" : "standard"
+
+}
+
+
+
+
