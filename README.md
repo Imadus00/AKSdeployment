@@ -1,2 +1,1 @@
-# AKSdeployment
-# AKSdeployment2d
+# Azure Key Vault deployment wi th Bicep & Github actions
