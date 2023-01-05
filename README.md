@@ -35,19 +35,12 @@ This will output a JSON object containing the service principal's `clientId` and
   - secret name = AZURE_CREDENTIALS
   - Value = paste the result you obtained when creating the service principal.  
   example : 
-  {
-  "clientId": "xxxxx-xxxxx-xxxxxxx",
-  "clientSecret": "xxxxxxxxxxxxxxxxxxxxxxxxxxxx",
-  "subscriptionId": "xxxxx-xxxxx-xxxxxxx",
-  "tenantId": "xxxxx-xxxxx-xxxxxxx",
-  "activeDirectoryEndpointUrl": "https://login.microsoftonline.com",
-  "resourceManagerEndpointUrl": "https://management.azure.com/",
-  "activeDirectoryGraphResourceId": "https://graph.windows.net/",
-  "sqlManagementEndpointUrl": "https://management.core.windows.net:8443/",
-  "galleryEndpointUrl": "https://gallery.azure.com/",
-  "managementEndpointUrl": "https://management.core.windows.net/"
-}
-![image](https://user-images.githubusercontent.com/122009354/210835862-4d238f7d-9a4a-4d07-825c-c8cd2b3677a0.png)
+  
+![image](https://user-images.githubusercontent.com/122009354/210837236-6ee26629-5670-4f33-bb3d-792d82bd7443.png)
+
+![image](https://user-images.githubusercontent.com/122009354/210837177-e970a1b6-f234-4db0-8b2a-bc18ee45af10.png)
+
+
 
 3. Use the following code to define the workflow:
 
