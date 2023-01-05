@@ -26,8 +26,8 @@ jobs:
       - uses: actions/checkout@v3
     
       - uses: Azure/login@v1.4.6
-          with:
-            creds: '${{ secrets.AZURE_CREDENTIALS }}'
+        with:
+          creds: '${{ secrets.AZURE_CREDENTIALS }}'
           
       - name: Deploy Azure Resource Manager (ARM) Template
         uses: Azure/arm-deploy@v1.0.9
