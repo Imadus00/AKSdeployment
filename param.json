@@ -1,13 +1,18 @@
 {
-    "keyVaultName" : "kvtest",
-    "location" : "northeurope",
-    "enabledForDeployment" : false,
-    "enabledForDiskEncryption" : false,
-    "enabledForTemplateDeployment" : false,
-    "skuName" : "standard"
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "keyVaultName": {
+        "value": "kvtest"
+      },
+      "location": {
+        "value": "northeurope"
+      },
+      "skuName": {
+        "value": "standard"
+      }
 
-}
-
-
+    }
+  }
 
 
